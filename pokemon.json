@@ -1,0 +1,36 @@
+{
+  "squadName" : "Pokemon clubhuis",
+  "homeTown" : "Aspertia City",
+  "formed" : 2018,
+  "secretBase" : "Nada Parbat",
+  "active" : true,
+  "members" : [
+    {
+      "name" : "Rhydon",
+      "age" : 120,
+      "secretIdentity" : "Ground",
+      "powers" : [
+        "Rock Head",
+        "Lightning Rod"
+      ]
+    },
+    {
+      "name" : "Mr. Mime",
+      "age" : 54.5,
+      "secretIdentity" : "Psychic",
+      "powers" : [
+        "Soundproof",
+        "Filter"
+      ]
+    },
+    {
+      "name" : "Pikachu",
+      "age" : 6.0,
+      "secretIdentity" : "Electric",
+      "powers" : [
+        "Static"
+
+      ]
+    }
+  ]
+}
