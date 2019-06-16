@@ -1,36 +1,199 @@
 {
-  "squadName" : "Pokemon clubhuis",
-  "homeTown" : "Aspertia City",
-  "formed" : 2018,
-  "secretBase" : "Nada Parbat",
-  "active" : true,
-  "members" : [
-    {
-      "name" : "Rhydon",
-      "age" : 120,
-      "secretIdentity" : "Ground",
-      "powers" : [
-        "Rock Head",
-        "Lightning Rod"
-      ]
-    },
-    {
-      "name" : "Mr. Mime",
-      "age" : 54.5,
-      "secretIdentity" : "Psychic",
-      "powers" : [
-        "Soundproof",
-        "Filter"
-      ]
-    },
-    {
-      "name" : "Pikachu",
-      "age" : 6.0,
-      "secretIdentity" : "Electric",
-      "powers" : [
-        "Static"
+    "squadName": "Pokemon clubhuis",
+    "homeTown": "Aspertia City",
+    "formed": 2018,
+    "secretBase": "Nada Parbat",
+    "active": true,
+    "members": [
+        {
 
-      ]
-    }
-  ]
+{
+    "nummmer": 1,
+    "naam": "Bulbasaur",
+    "beschrijving": "Bulbasaur can be seen napping in bright sunlight. There is a seed on its back. By soaking up the sun's rays, the seed grows progressively larger.  Bulbasaur can be seen napping in bright sunlight. There is a seed on its back. By soaking up the sun's rays, the seed grows progressively larger.",
+    "afbeelding": "http://assets22.pokemon.com/assets/cms2/img/pokedex/full/001.png",
+    "types": ["poison", "grass"],
+    "evolutions": [{
+        "level": 16,
+        "method": "level_up",
+        "naar": "Ivysaur",
+    }]
 }
+
+{
+    "nummer": 2,
+    "naam": "Ivysaur",
+    "beschrijving": "There is a bud on this Pokémon's back. To support its weight, Ivysaur's legs and trunk grow thick and strong. If it starts spending more time lying in the sunlight, it's a sign that the bud will bloom into a large flower soon.  There is a bud on this Pokémon's back. To support its weight, Ivysaur's legs and trunk grow thick and strong. If it starts spending more time lying in the sunlight, it's a sign that the bud will bloom into a large flower soon.",
+    "afbeelding": "http://assets22.pokemon.com/assets/cms2/img/pokedex/full/002.png",
+    "types": ["poison", "grass"],
+    "evolutions": [{
+        "level": 32,
+        "method": "level_up",
+        "naar": "Venusaur",
+    }]
+}
+
+{
+    "nummer": 3,
+    "naam": "Venusaur",
+    "beschrijving": "There is a large flower on Venusaur's back. The flower is said to take on vivid colors if it gets plenty of nutrition and sunlight. The flower's aroma soothes the emotions of people.  There is a large flower on Venusaur's back. The flower is said to take on vivid colors if it gets plenty of nutrition and sunlight. The flower's aroma soothes the emotions of people.",
+    "afbeelding": "http://assets22.pokemon.com/assets/cms2/img/pokedex/full/003.png",
+    "types": ["poison", "grass"],
+    "evolutions": [{
+        "method": "other",
+        "naar": "Venusaur-mega",
+    }]
+}
+
+{
+    "nummer": 4,
+    "naam": "Charmander",
+    "beschrijving": "The flame that burns at the tip of its tail is an indication of its emotions. The flame wavers when Charmander is enjoying itself. If the Pokémon becomes enraged, the flame burns fiercely.  The flame that burns at the tip of its tail is an indication of its emotions. The flame wavers when Charmander is enjoying itself. If the Pokémon becomes enraged, the flame burns fiercely.",
+    "afbeelding": "http://assets22.pokemon.com/assets/cms2/img/pokedex/full/004.png",
+    "types": ["fire"],
+    "evolutions": [{
+        "level": 16,
+        "method": "level_up",
+        "naar": "Charmeleon",
+    }]
+}
+
+{
+    "nummer": 5,
+    "naam": "Charmeleon",
+    "beschrijving": "Charmeleon mercilessly destroys its foes using its sharp claws. If it encounters a strong foe, it turns aggressive. In this excited state, the flame at the tip of its tail flares with a bluish white color.  Charmeleon mercilessly destroys its foes using its sharp claws. If it encounters a strong foe, it turns aggressive. In this excited state, the flame at the tip of its tail flares with a bluish white color.",
+    "afbeelding": "http://assets22.pokemon.com/assets/cms2/img/pokedex/full/005.png",
+    "types": ["fire"],
+    "evolutions": [{
+        "level": 36,
+        "method": "level_up",
+        "naar": "Charizard",
+    }]
+}
+
+{
+    "nummer": 6,
+    "naam": "Charizard",
+    "beschrijving": "Charizard flies around the sky in search of powerful opponents. It breathes fire of such great heat that it melts anything. However, it never turns its fiery breath on any opponent weaker than itself.  Charizard flies around the sky in search of powerful opponents. It breathes fire of such great heat that it melts anything. However, it never turns its fiery breath on any opponent weaker than itself.",
+    "afbeelding": "http://assets22.pokemon.com/assets/cms2/img/pokedex/full/006.png",
+    "types": ["flying", "fire"],
+    "evolutions": [{
+        "method": "other",
+        "naar": "Charizard-mega-y",
+
+    }, {
+        "method": "other",
+        "naar": "Charizard-mega-x",
+
+    }]
+}
+
+{
+    "nummer": 7,
+    "naam": "Squirtle",
+    "beschrijving": "Squirtle's shell is not merely used for protection. The shell's rounded shape and the grooves on its surface help minimize resistance in water, enabling this Pokémon to swim at high speeds.  Squirtle's shell is not merely used for protection. The shell's rounded shape and the grooves on its surface help minimize resistance in water, enabling this Pokémon to swim at high speeds.",
+    "afbeelding": "http://assets22.pokemon.com/assets/cms2/img/pokedex/full/007.png",
+    "types": ["water"],
+    "evolutions": [{
+        "level": 16,
+        "method": "level_up",
+        "naar": "Wartortle",
+    }]
+}
+
+{
+    "nummer": 8,
+    "naam": "Wartortle",
+    "beschrijving": "Its tail is large and covered with a rich, thick fur. The tail becomes increasingly deeper in color as Wartortle ages. The scratches on its shell are evidence of this Pokémon's toughness as a battler.  Its tail is large and covered with a rich, thick fur. The tail becomes increasingly deeper in color as Wartortle ages. The scratches on its shell are evidence of this Pokémon's toughness as a battler.",
+    "afbeelding": "http://assets22.pokemon.com/assets/cms2/img/pokedex/full/008.png",
+    "types": ["water"],
+    "evolutions": [{
+        "level": 36,
+        "method": "level_up",
+        "naar": "Blastoise",
+    }]
+}
+
+{
+    "nummer": 9,
+    "naam": "Blastoise",
+    "beschrijving": "Blastoise has water spouts that protrude from its shell. The water spouts are very accurate. They can shoot bullets of water with enough accuracy to strike empty cans from a distance of over 160 feet.  Blastoise has water spouts that protrude from its shell. The water spouts are very accurate. They can shoot bullets of water with enough accuracy to strike empty cans from a distance of over 160 feet.",
+    "afbeelding": "http://assets22.pokemon.com/assets/cms2/img/pokedex/full/009.png",
+    "types": ["water"],
+    "evolutions": [{
+        "method": "other",
+        "naar": "Blastoise-mega",
+    }]
+}
+
+{
+    "nummer": 10,
+    "naam": "Caterpie",
+    "beschrijving": "Caterpie has a voracious appetite. It can devour leaves bigger than its body right before your eyes. From its antenna, this Pokémon releases a terrifically strong odor.  Caterpie has a voracious appetite. It can devour leaves bigger than its body right before your eyes. From its antenna, this Pokémon releases a terrifically strong odor.",
+    "afbeelding": "http://assets22.pokemon.com/assets/cms2/img/pokedex/full/008.png",
+    "types": ["bug"],
+    "evolutions": [{
+        "level": 7,
+        "method": "level_up",
+        "naar": "Metapod",
+    }]
+}
+
+{
+    "nummer": 11,
+    "naam": "Metapod",
+    "beschrijving": "The shell covering this Pokémon's body is as hard as an iron slab. Metapod does not move very much. It stays still because it is preparing its soft innards for evolution inside the hard shell.  The shell covering this Pokémon's body is as hard as an iron slab. Metapod does not move very much. It stays still because it is preparing its soft innards for evolution inside the hard shell.",
+    "afbeelding": "http://assets22.pokemon.com/assets/cms2/img/pokedex/full/011.png",
+    "types": ["bug"],
+    "evolutions": [{
+        "level": 10,
+        "method": "level_up",
+        "naar": "Butterfree",
+    }]
+}
+
+{
+    "nummer": 12,
+    "naam": "Butterfree",
+    "beschrijving": "Butterfree has a superior ability to search for delicious honey from flowers. It can even search out, extract, and carry honey from flowers that are blooming over six miles from its nest.  Butterfree has a superior ability to search for delicious honey from flowers. It can even search out, extract, and carry honey from flowers that are blooming over six miles from its nest.",
+    "afbeelding": "http://assets22.pokemon.com/assets/cms2/img/pokedex/full/012.png",
+    "types": ["flying", "bug"],
+    "evolutions": []
+}
+
+{
+    "nummer": 13,
+    "naam": "Weedle",
+    "beschrijving": "Weedle has an extremely acute sense of smell. It is capable of distinguishing its favorite kinds of leaves from those it dislikes just by sniffing with its big red proboscis (nose).  Weedle has an extremely acute sense of smell. It is capable of distinguishing its favorite kinds of leaves from those it dislikes just by sniffing with its big red proboscis (nose).",
+    "afbeelding": "http://assets22.pokemon.com/assets/cms2/img/pokedex/full/013.png",
+    "types": ["poison", "bug"],
+    "evolutions": [{
+        "level": 7,
+        "method": "level_up",
+        "naar": "Kakuna",
+    }]
+}
+
+{
+    "nummer": 14,
+    "naam": "Kakuna",
+    "beschrijving": "Kakuna remains virtually immobile as it clings to a tree. However, on the inside, it is extremely busy as it prepares for its coming evolution. This is evident from how hot the shell becomes to the touch.  Kakuna remains virtually immobile as it clings to a tree. However, on the inside, it is extremely busy as it prepares for its coming evolution. This is evident from how hot the shell becomes to the touch.",
+    "afbeelding": "http://assets22.pokemon.com/assets/cms2/img/pokedex/full/014.png",
+    "types": ["poison", "bug"],
+    "evolutions": [{
+        "level": 10,
+        "method": "level_up",
+        "naar": "Beedrill",
+    }]
+}
+
+{
+    "nummer": 15,
+    "naam": "Beedrill",
+    "beschrijving": "Beedrill is extremely territorial. No one should ever approach its nest—this is for their own safety. If angered, they will attack in a furious swarm.  Beedrill is extremely territorial. No one should ever approach its nest—this is for their own safety. If angered, they will attack in a furious swarm.",
+    "afbeelding": "http://assets22.pokemon.com/assets/cms2/img/pokedex/full/015.png",
+    "types": ["poison", "bug"],
+    "evolutions": []
+}
+
+}],
