@@ -6,13 +6,12 @@
   "active" : true,
   "members" : [
     {
-      "name" : "Squirtle",
-      "age" : 29,
-      "secretIdentity" : "Dan Jukes",
+      "name" : "Bulbasaur",
+      "age" : "Bulbasaur can be seen napping in bright sunlight. There is a seed on its back. By soaking up the sun's rays, the seed grows progressively larger."  
+      "secretIdentity" : "Ivysaur",
       "powers" : [
-        "Radiation resistance",
-        "Turning tiny",
-        "Radiation blast"
+        "Poison",
+        "Grass",
       ]
     },
     {
