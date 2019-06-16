@@ -5,7 +5,6 @@
     "secretBase": "Nada Parbat",
     "active": true,
     "members": [
-        {
 
 {
     "nummmer": 1,
@@ -196,4 +195,5 @@
     "evolutions": []
 }
 
-}],
+]
+
